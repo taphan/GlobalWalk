@@ -56,4 +56,5 @@ public class RankingMapNoCompController {
 			@FXML
 			public void clickSettings(MouseEvent mouseEvent) throws IOException {
 				masterController.clickSettings(mouseEvent);
+			}
 }

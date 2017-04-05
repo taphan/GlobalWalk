@@ -18,6 +18,8 @@ public class CompetitionInfo {
 		onButton.setVisible(false);
 		toggleBackground.disabledProperty();
 		toggleBackground.setDisable(true);
+		joinButton.setVisible(false);
+		
 	}
 	
 	public void offButtonPress(){
@@ -33,11 +35,13 @@ public class CompetitionInfo {
 	}
 	
 	public void onJoinPress(){
-		
+		joinButton.setVisible(false);
+		leaveButton.setVisible(true);
 	}
 	
 	public void onLeavePress(){
-		
+		joinButton.setVisible(true);
+		leaveButton.setVisible(false);
 	}
 
 

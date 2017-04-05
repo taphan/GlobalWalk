@@ -150,12 +150,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <ImageView fitHeight="74.0" fitWidth="74.0" layoutX="39.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../../Bedrift%20logo/Dell-Company-Logo.png" />
-         </image>
-      </ImageView>
-      <Button fx:id="leaveButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onLeavePredd" text="Leave">
+      <Button fx:id="leaveButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onLeavePress" text="Leave">
          <font>
             <Font size="14.0" />
          </font>
@@ -163,7 +158,7 @@
       <TextField fx:id="toggleBackground" layoutX="203.0" layoutY="395.0" prefHeight="36.0" prefWidth="85.0" style="-fx-background-radius: 20;" />
       <Button fx:id="onButton" layoutX="251.0" layoutY="395.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="36.0" prefWidth="44.0" style="-fx-background-radius: 50;" text="on" />
       <Button fx:id="offButton" layoutX="196.0" layoutY="395.0" mnemonicParsing="false" onAction="#offButtonPress" prefHeight="36.0" prefWidth="44.0" style="-fx-background-radius: 50;" text="off" />
-      <Button fx:id="joinButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onjoinPress" text="Join">
+      <Button fx:id="joinButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onJoinPress" prefHeight="30.0" prefWidth="58.0" text="Join">
          <font>
             <Font size="14.0" />
          </font>
