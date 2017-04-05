@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
@@ -12,9 +10,8 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.PedometerController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
         <columnConstraints>
@@ -81,50 +78,13 @@
       </Label>
       <Label layoutX="185.0" layoutY="18.0" text="Bob Ross">
          <font>
-
+            <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="23.0" layoutY="76.0" text="Pedometer">
+      <Label layoutX="23.0" layoutY="76.0" text="Homepage">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button fx:id="addStepsbutton" layoutX="225.0" layoutY="433.0" mnemonicParsing="false" onAction="#onAddStepsButtonPress" prefHeight="49.0" prefWidth="88.0" text="Add Steps" />
-      <ImageView fitHeight="305.0" fitWidth="391.0" layoutX="-28.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../Icons/Untitled-1.png" />
-         </image>
-      </ImageView>
-      <Text fx:id="leftSteps" layoutX="134.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500" wrappingWidth="65.00000252982318">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Text>
-      <TextField fx:id="addSteps" layoutX="14.0" layoutY="433.0" prefHeight="49.0" prefWidth="211.0" />
-      <Text fx:id="dailySteps" layoutX="98.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7500" wrappingWidth="124.41796857097279">
-         <font>
-            <Font name="System Bold" size="40.0" />
-         </font>
-      </Text>
-      <ImageView fitHeight="61.0" fitWidth="65.0" layoutX="227.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
-         <image>
-            <Image url="@../../Icons/medal.png" />
-         </image>
-      </ImageView>
-      <Text fx:id="errorAddSteps" fill="RED" layoutX="14.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can only contain digits" wrappingWidth="211.0000015674707" />
-      <Text fill="#615e5e" layoutX="108.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/10 000 steps today" wrappingWidth="103.41796857097279">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Text>
-      <Text layoutX="27.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Walk another                steps to get a medal!" wrappingWidth="184.6708984375">
-         <font>
-            <Font size="17.0" />
-         </font>
-      </Text>
-      <Text layoutX="250.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manual" />
-      <TextField fx:id="toggleBackground" layoutX="230.0" layoutY="91.0" prefHeight="31.0" prefWidth="78.0" style="-fx-background-radius: 20;" />
-      <Button fx:id="offButton" layoutX="231.0" layoutY="91.0" mnemonicParsing="false" onAction="#offButtonPress" style="-fx-background-radius: 50;" text="off" />
-      <Button fx:id="onButton" layoutX="274.0" layoutY="91.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-radius: 50;" text="on" />
    </children>
 </Pane>
