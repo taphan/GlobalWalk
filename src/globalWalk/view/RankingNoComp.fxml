@@ -64,7 +64,7 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
       <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Icons/535106-user_512x512.png" />
+            <Image url="@../../Icons/user.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
@@ -101,7 +101,7 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <ToggleButton mnemonicParsing="false" prefHeight="189.0" prefWidth="380.0" text="Table" />
+            <ToggleButton mnemonicParsing="false" prefHeight="189.0" prefWidth="380.0" style="-fx-background-color: grey;" text="Table" />
             <ToggleButton fx:id="mapButton" mnemonicParsing="false" onAction="#goToMap" prefHeight="252.0" prefWidth="454.0" text="Map" GridPane.columnIndex="1" />
          </children>
       </GridPane>
