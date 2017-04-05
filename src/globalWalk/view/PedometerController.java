@@ -91,7 +91,7 @@ public class PedometerController extends MasterController {
 		
 	}
 	
-	//Metoder for å gå til de ulike sidene i menyen
+	//Metoder for å gå til de ulike sidene i menyen.
 		private final MasterController masterController = new MasterController();
 		
 		@FXML

@@ -25,7 +25,7 @@ public class RankingMapNoCompController {
 		appStage.show();
 	}
 	
-	//Metoder for å gå til de ulike sidene i menyen
+	//Metoder for å gå til de ulike sidene i menyen.
 			private final MasterController masterController = new MasterController();
 			
 			@FXML

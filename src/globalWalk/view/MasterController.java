@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 
 public class MasterController {
 
-    // Profil siden bruker denne som Controller, siden den har ingen spesielle funksjoner
+    // Profil siden bruker denne som Controller, siden den har ingen spesielle funksjoner.
 
     public void clickProfile(MouseEvent mouseEvent) throws IOException {
     	Parent homePage = FXMLLoader.load(getClass().getResource("profile.fxml"));

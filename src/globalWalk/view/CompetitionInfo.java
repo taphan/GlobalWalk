@@ -12,7 +12,7 @@ public class CompetitionInfo {
 	@FXML private Button joinButton;
 	@FXML private Button leaveButton;
 	
-	
+	//.
 	@FXML 
 	private void initialize() {
 		onButton.setVisible(false);
