@@ -90,21 +90,22 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button fx:id="addStepsbutton" layoutX="225.0" layoutY="433.0" mnemonicParsing="false" onAction="#onAddStepsButtonPress" prefHeight="49.0" prefWidth="88.0" text="Add Steps" />
-      <ImageView fitHeight="305.0" fitWidth="391.0" layoutX="-28.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+      <ToggleButton layoutX="222.0" layoutY="76.0" mnemonicParsing="false" text="Manual" />
+      <Button layoutX="225.0" layoutY="434.0" mnemonicParsing="false" prefHeight="49.0" prefWidth="88.0" text="Add Steps" />
+      <ImageView fitHeight="305.0" fitWidth="391.0" layoutX="-35.0" layoutY="60.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/Untitled-1.png" />
          </image>
       </ImageView>
-      <Text fx:id="leftSteps" layoutX="134.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500" wrappingWidth="65.00000252982318">
+      <Text layoutX="23.0" layoutY="373.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="136.6708984375">
          <font>
-            <Font size="18.0" />
+            <Font size="21.0" />
          </font>
       </Text>
-      <TextField fx:id="addSteps" layoutX="14.0" layoutY="433.0" prefHeight="49.0" prefWidth="211.0" />
-      <Text fx:id="dailySteps" layoutX="98.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7500" wrappingWidth="124.41796857097279">
+      <TextField layoutX="14.0" layoutY="433.0" prefHeight="49.0" prefWidth="211.0" />
+      <Text layoutX="99.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="136.6708984375">
          <font>
-            <Font name="System Bold" size="40.0" />
+            <Font size="21.0" />
          </font>
       </Text>
       <ImageView fitHeight="61.0" fitWidth="65.0" layoutX="227.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
@@ -112,17 +113,5 @@
             <Image url="@../../Icons/medal.png" />
          </image>
       </ImageView>
-      <ToggleButton fx:id="manual" layoutX="234.0" layoutY="76.0" mnemonicParsing="false" onAction="#onManualButtonPress" text="Manual" />
-      <Text fx:id="errorAddSteps" fill="RED" layoutX="14.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can only contain digits" wrappingWidth="211.0000015674707" />
-      <Text fill="#615e5e" layoutX="108.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/10 000 steps today" wrappingWidth="103.41796857097279">
-         <font>
-            <Font size="16.0" />
-         </font>
-      </Text>
-      <Text layoutX="27.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Walk another                steps to get a medal!" wrappingWidth="184.6708984375">
-         <font>
-            <Font size="17.0" />
-         </font>
-      </Text>
    </children>
 </Pane>
