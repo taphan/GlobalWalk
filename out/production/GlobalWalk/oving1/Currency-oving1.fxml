@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="310.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
+  <columnConstraints>
+    <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+  </columnConstraints>
+  <rowConstraints>
+      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+    <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e3c9b1" height="100.0" stroke="#d1baa3" strokeType="INSIDE" width="310.0" />
+      <Label alignment="CENTER_RIGHT" text="10,000" textFill="#d41c1c" GridPane.halignment="RIGHT">
+         <font>
+            <Font name="Eras Medium ITC" size="30.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="25.0" />
+         </GridPane.margin>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9c2aa" height="100.0" stroke="#d1baa3" strokeType="INSIDE" width="310.0" GridPane.rowIndex="1" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9c2ab" height="100.0" stroke="#d1baa3" strokeType="INSIDE" width="310.0" GridPane.rowIndex="2" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#d9c2aa" height="100.0" stroke="#d1baa3" strokeType="INSIDE" width="310.0" GridPane.rowIndex="3" />
+      <Label alignment="CENTER_RIGHT" text="992,815" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+         <GridPane.margin>
+            <Insets right="25.0" />
+         </GridPane.margin>
+         <font>
+            <Font name="Eras Medium ITC" size="30.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER_RIGHT" text="7,694" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+         <font>
+            <Font name="Eras Medium ITC" size="30.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="25.0" />
+         </GridPane.margin>
+      </Label>
+      <Label alignment="CENTER_RIGHT" text="6,559" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+         <font>
+            <Font size="30.0" />
+         </font>
+         <GridPane.margin>
+            <Insets right="25.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="USD" textFill="#a48d78">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="85.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="JPY" textFill="#a48d78" GridPane.halignment="LEFT" GridPane.rowIndex="1">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="85.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="EUR" textFill="#a48d78" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="85.0" />
+         </GridPane.margin>
+      </Label>
+      <Label text="GBP" textFill="#a48d78" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <GridPane.margin>
+            <Insets left="85.0" />
+         </GridPane.margin>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@usa.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+         <image>
+            <Image url="@jpn.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+         <image>
+            <Image url="@eur.png" />
+         </image>
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+         <GridPane.margin>
+            <Insets left="20.0" />
+         </GridPane.margin>
+         <image>
+            <Image url="@gbp.png" />
+         </image>
+      </ImageView>
+   </children>
+</GridPane>

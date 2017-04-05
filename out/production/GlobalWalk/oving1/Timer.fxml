@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="480.0" >
+	<columnConstraints>
+    	<ColumnConstraints/>
+	</columnConstraints>
+	<rowConstraints> 
+	    <RowConstraints/>
+	    <RowConstraints/>
+	    <RowConstraints/>
+	    <RowConstraints/>
+	</rowConstraints>
+	
+	<children>
+	
+		<!-- 	Set rectangles to fill in background -->
+		<Rectangle fill="#ffffff" height="100.0"  width="480.0" GridPane.rowIndex="0"/>	
+		<Rectangle fill="#f3f4ef" height="90.0"  width="480.0" GridPane.rowIndex="1" GridPane.halignment = "CENTER">
+		<GridPane.margin>	<Insets bottom = "3.0" top="3.0" />	 </GridPane.margin>
+		</Rectangle>
+		<Rectangle fill="#ffffff" height="5.0"  width="480.0" GridPane.valignment="BOTTOM" GridPane.rowIndex="1"/>	
+	    <Rectangle fill="#f3f4ef" height="90.0" strokeType="INSIDE" width="480.0" GridPane.rowIndex="2">
+	       <GridPane.margin> <Insets bottom="3.0" top="3.0" />  </GridPane.margin>
+	    </Rectangle>		
+	    <Rectangle fill="#ffffff" height="5.0"  width="480.0" GridPane.valignment="BOTTOM" GridPane.rowIndex="2"/>	
+	    <Rectangle fill="#f3f4ef" height="100.0"  width="236.0" GridPane.rowIndex="3">
+	    	<GridPane.margin> <Insets top="3.0"/> </GridPane.margin>
+	    </Rectangle>
+		<Rectangle fill="#f3f4ef" height="100.0"  width="236.0" GridPane.rowIndex="3" GridPane.halignment = "RIGHT">
+			<GridPane.margin> <Insets top="3.0"/> </GridPane.margin>
+		</Rectangle>
+		<Rectangle fill="#ffffff" height="100.0"  width="5.0" GridPane.halignment="CENTER" GridPane.rowIndex="3"/>	
+			
+			
+		<ImageView fitHeight="80.0" fitWidth="80.0" GridPane.rowIndex="0">
+        	<image>	<Image url="@running.png" />	</image>
+        	<GridPane.margin> <Insets left="20.0" /> </GridPane.margin>
+		</ImageView>
+		
+		<!-- 		Insert the texts as labels -->
+		<Label alignment="CENTER_RIGHT" text="RUNNING" textFill="#000000" GridPane.valignment="CENTER" GridPane.halignment="RIGHT" GridPane.rowIndex="0">
+        	<font> <Font name="System" size="24.0" /> </font>
+        	<GridPane.margin>	<Insets right="10.0" top="10.0" />	 </GridPane.margin>
+		</Label>
+		
+		<Label alignment="CENTER_RIGHT" text="DURATION" textFill="#000000" GridPane.valignment="TOP"  GridPane.rowIndex="1">
+        	<font> <Font name="System" size="21.0" /> </font>
+        	<GridPane.margin>	<Insets left="10.0" top="10.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="0:57:24" textFill="#000000" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+        	<font> <Font name="System bold" size="65.0" /> </font>
+        	<GridPane.margin>	<Insets right="10.0" />	 </GridPane.margin>
+		</Label>
+		
+		<Label alignment="CENTER_RIGHT" text="DISTANCE" textFill="#000000" GridPane.valignment="TOP"  GridPane.rowIndex="2">
+        	<font> <Font name="System" size="21.0" /> </font>
+        	<GridPane.margin>	<Insets left="10.0" top="10.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="km" textFill="#000000"  GridPane.rowIndex="2">
+        	<font> <Font name="System" size="19.0" /> </font>
+        	<GridPane.margin>	<Insets left="10.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="12.30" textFill="#000000"  GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+        	<font> <Font name="System bold" size="65.0" /> </font>
+        	<GridPane.margin>	<Insets right="10.0" />	 </GridPane.margin>
+		</Label>
+		
+		<Label alignment="CENTER_RIGHT" text="HEART RATE" textFill="#000000" GridPane.valignment="TOP"  GridPane.rowIndex="3">
+        	<font> <Font name="System" size="21.0" /> </font>
+        	<GridPane.margin>	<Insets left="10.0" top="10.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="bpm" textFill="#000000" GridPane.rowIndex="3">
+        	<font> <Font name="System" size="19.0" /> </font>
+        	<GridPane.margin>	<Insets left="10.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="AVG. SPEED" textFill="#000000" GridPane.valignment="TOP"  GridPane.halignment="CENTER" GridPane.rowIndex="3">
+        	<font> <Font name="System" size="21.0" /> </font>
+        	<GridPane.margin>	<Insets left="140.0" top="10.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="km/h" textFill="#000000" GridPane.valignment="CENTER"  GridPane.halignment="CENTER" GridPane.rowIndex="3">
+        	<font> <Font name="System" size="19.0" /> </font>
+        	<GridPane.margin>	<Insets left="72.0" top="10.0"/>	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER" text="163" textFill="#000000" GridPane.valignment="BOTTOM" GridPane.halignment="CENTER" GridPane.rowIndex="3">
+        	<font> <Font name="System bold" size="50.0" /> </font>
+        	<GridPane.margin>	<Insets right="100.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="4:40" textFill="#000000" GridPane.valignment="BOTTOM" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+        	<font> <Font name="System bold" size="50.0" /> </font>
+        	<GridPane.margin>	<Insets right="10.0" />	 </GridPane.margin>
+		</Label>
+		
+	</children>
+
+</GridPane>
+

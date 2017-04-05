@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.geometry.Insets?>
+
+
+<GridPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="310.0" >
+	<columnConstraints>
+    	<ColumnConstraints/>
+	</columnConstraints>
+<!-- Make 4 rows in grid (Comment = CTRL+SHIFT+c)-->
+	<rowConstraints> 
+	    <RowConstraints/>
+	    <RowConstraints/>
+	    <RowConstraints/>
+	    <RowConstraints/>
+	</rowConstraints>
+	<children>
+	
+<!-- Put rectangles into grid to fill in background-->
+		<Rectangle fill="#e3c9b1" height="100.0" stroke="#d1baa3" width="310.0" GridPane.rowIndex="0"/>	
+        <Rectangle fill="#d9c2aa" height="100.0" stroke="#d1baa3" width="310.0" GridPane.rowIndex="1" />	
+        <Rectangle fill="#d9c2aa" height="100.0" stroke="#d1baa3" width="310.0" GridPane.rowIndex="2"/>	
+        <Rectangle fill="#d9c2aa" height="100.0" stroke="#d1baa3" width="310.0" GridPane.rowIndex="3"/>	
+      	
+<!-- Add prices -->
+		<Label alignment="CENTER_RIGHT" text="10,000" textFill="#d41c1c" GridPane.halignment="RIGHT" GridPane.rowIndex="0">
+        	<font> <Font name="Eras Medium ITC" size="30.0" /> </font>
+        	<GridPane.margin>	<Insets right="25.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="992,815" textFill="#000000" GridPane.halignment="RIGHT" GridPane.rowIndex="1">
+        	<font> <Font name="Eras Medium ITC" size="30.0" /> </font>
+        	<GridPane.margin>	<Insets right="25.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="7,694" textFill="#000000" GridPane.halignment="RIGHT" GridPane.rowIndex="2">
+        	<font> <Font name="Eras Medium ITC" size="30.0" /> </font>
+        	<GridPane.margin>	<Insets right="25.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_RIGHT" text="6,559" textFill="#000000" GridPane.halignment="RIGHT" GridPane.rowIndex="3">
+        	<font> <Font name="Eras Medium ITC" size="30.0" /> </font>
+        	<GridPane.margin>	<Insets right="25.0" />	 </GridPane.margin>
+		</Label>
+      
+<!-- Add currency -->
+		<Label alignment="CENTER_LEFT" text="USD" textFill="#a48d78" GridPane.halignment="LEFT" GridPane.rowIndex="0">
+        	<font> <Font name="System" size="14.0" /> </font>
+        	<GridPane.margin>	<Insets left="85.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_LEFT" text="JPY" textFill="#a48d78" GridPane.halignment="LEFT" GridPane.rowIndex="1">
+        	<font> <Font name="System" size="14.0" /> </font>
+        	<GridPane.margin>	<Insets left="85.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_LEFT" text="EUR" textFill="#a48d78" GridPane.halignment="LEFT" GridPane.rowIndex="2">
+        	<font> <Font name="System" size="14.0" /> </font>
+        	<GridPane.margin>	<Insets left="85.0" />	 </GridPane.margin>
+		</Label>
+		<Label alignment="CENTER_LEFT" text="GBP" textFill="#a48d78" GridPane.halignment="LEFT" GridPane.rowIndex="3">
+        	<font> <Font name="System" size="14.0" /> </font>
+        	<GridPane.margin>	<Insets left="85.0" />	 </GridPane.margin>
+		</Label>
+
+<!-- Add flag -->
+		<ImageView fitHeight="50.0" fitWidth="50.0" GridPane.rowIndex="0">
+        	<image>	<Image url="@usa.png" />	</image>
+        	<GridPane.margin> <Insets left="20.0" /> </GridPane.margin>
+		</ImageView>
+		<ImageView fitHeight="50.0" fitWidth="50.0" GridPane.rowIndex="1">
+        	<image>	<Image url="@jpn.png" />	</image>
+        	<GridPane.margin> <Insets left="20.0" /> </GridPane.margin>
+		</ImageView>
+		<ImageView fitHeight="50.0" fitWidth="50.0" GridPane.rowIndex="2">
+        	<image>	<Image url="@eur.png" />	</image>
+        	<GridPane.margin> <Insets left="20.0" /> </GridPane.margin>
+		</ImageView>
+		<ImageView fitHeight="50.0" fitWidth="50.0" GridPane.rowIndex="3">
+        	<image>	<Image url="@gbp.png" />	</image>
+        	<GridPane.margin> <Insets left="20.0" /> </GridPane.margin>
+		</ImageView>
+		
+	</children>
+
+</GridPane>
+
