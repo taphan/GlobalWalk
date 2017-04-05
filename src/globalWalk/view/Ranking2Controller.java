@@ -9,11 +9,14 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
+import javafx.scene.control.ToggleButton;
 import javafx.stage.Stage;
 
 public class Ranking2Controller {
 	
 	@FXML private Button previousButton;
+	
+	@FXML private ToggleButton mapButton;
 
 	@FXML
 	private void buttonClick(ActionEvent event) throws IOException {
@@ -24,5 +27,13 @@ public class Ranking2Controller {
 		appStage.show();
 	}
 	
+	@FXML
+	private void goToMap(ActionEvent event) throws IOException {
+		Parent mapPage = FXMLLoader.load(getClass().getResource("rankingMap.fxml"));
+		Scene mapScene = new Scene(mapPage);
+		Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+		appStage.setScene(mapScene);
+		appStage.show();
+	}
 
 }

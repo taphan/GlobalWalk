@@ -11,16 +11,16 @@ import javafx.scene.Scene;
 import javafx.scene.control.ToggleButton;
 import javafx.stage.Stage;
 
-public class RankingMapController {
+public class RankingNoCompController {
 	
 	@FXML private ToggleButton tableButton;
 
 	@FXML
-	private void buttonClick(ActionEvent event) throws IOException {
-		Parent rankingPage = FXMLLoader.load(getClass().getResource("ranking.fxml"));
-		Scene rankingScene = new Scene(rankingPage);
+	private void goToMap(ActionEvent event) throws IOException {
+		Parent mapPage = FXMLLoader.load(getClass().getResource("rankingMap.fxml"));
+		Scene mapScene = new Scene(mapPage);
 		Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
-		appStage.setScene(rankingScene);
+		appStage.setScene(mapScene);
 		appStage.show();
 	}
 	

@@ -65,12 +65,12 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
       <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Icons/535106-user_512x512.png" />
+            <Image url="@../../Icons/535106-user_512x512.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Icons/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6d6564616c732f3530302f41776172645f6d6564616c5f616368696576656d656e745f61636b6e6f776c656467655f61636b6e6f776c65.png" />
+            <Image url="@../../Icons/medal.png" />
          </image>
       </ImageView>
       <Label layoutX="54.0" layoutY="18.0" text="42">
@@ -90,7 +90,7 @@
       </Label>
       <ImageView fitHeight="345.0" fitWidth="500.0" layoutX="-2.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../../Icons/RankingTable.png" />
+            <Image url="@../../Icons/RankingTable.png" />
          </image>
       </ImageView>
       <Button fx:id="nextButton" layoutX="225.0" layoutY="478.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#buttonClick" prefHeight="20.0" prefWidth="84.0" text="Next page" underline="true" />
