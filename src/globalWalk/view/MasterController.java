@@ -15,7 +15,7 @@ import javafx.stage.Stage;
 
 public class MasterController {
 
-    // Profil siden bruker denne som Controller, siden den har ingen spesielle funksjoner
+    // Profil siden bruker denne som Controller, siden den har ingen spesielle funksjoner.
 
     public void clickProfile(MouseEvent mouseEvent) throws IOException {
     	Parent homePage = FXMLLoader.load(getClass().getResource("profile.fxml"));
@@ -25,8 +25,12 @@ public class MasterController {
 		appStage.show();
     }
 
-    public void clickList(MouseEvent mouseEvent) {
-        System.out.println("Går til list siden");
+    public void clickList(MouseEvent mouseEvent) throws IOException {
+    	Parent homePage = FXMLLoader.load(getClass().getResource("CompetitionsActive"));
+		Scene homeScene = new Scene(homePage);
+		Stage appStage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+		appStage.setScene(homeScene);
+		appStage.show();
     }
 
     public void clickCompetition(MouseEvent mouseEvent) throws IOException {
@@ -40,8 +44,12 @@ public class MasterController {
     		
     }
 
-    public void clickHome(MouseEvent mouseEvent) {
-        System.out.println("Går til hjemmesiden");
+    public void clickHome(MouseEvent mouseEvent) throws IOException {
+    	Parent homePage = FXMLLoader.load(getClass().getResource("Homepage.fxml"));
+		Scene homeScene = new Scene(homePage);
+		Stage appStage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
+		appStage.setScene(homeScene);
+		appStage.show();
     }
 
     public void clickStep(MouseEvent mouseEvent) throws IOException {
