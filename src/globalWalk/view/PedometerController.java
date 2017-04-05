@@ -45,9 +45,9 @@ public class PedometerController extends MasterController {
 		textField.setStyle("-fx-background-color: " + color);  // Turns red when incorrect. 
 	}
 	
-	public void isAddStepsValid(String value){ //TODO: Can contain minus values
+	public void isAddStepsValid(String value){
 			if (value.length() > 0){
-				String regex = "[\\d]+";
+				String regex = "-?[\\d]+"; // Only digits ect. -70 and 70
 				validate(value, regex, addSteps);
 				if (!value.matches(regex)){
 					errorAddSteps.setVisible(true);	
