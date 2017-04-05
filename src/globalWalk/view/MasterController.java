@@ -1,4 +1,4 @@
-package controllers;
+package globalWalk.view;
 
 public class MasterController {
 }
