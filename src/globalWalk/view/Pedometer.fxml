@@ -72,7 +72,7 @@
       </ImageView>
       <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Icons/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6d6564616c732f3530302f41776172645f6d6564616c5f616368696576656d656e745f61636b6e6f776c656467655f61636b6e6f776c65.png" />
+            <Image url="@../../Icons/medal.png" />
          </image>
       </ImageView>
       <Label layoutX="54.0" layoutY="18.0" text="42">
@@ -110,7 +110,7 @@
       </Text>
       <ImageView fitHeight="61.0" fitWidth="65.0" layoutX="227.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Icons/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6d6564616c732f3530302f41776172645f6d6564616c5f616368696576656d656e745f61636b6e6f776c656467655f61636b6e6f776c65.png" />
+            <Image url="@../../Icons/medal.png" />
          </image>
       </ImageView>
    </children>

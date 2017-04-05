@@ -2,25 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/globalWalk/TestMain.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/535106-user_512x512.png" afterPath="$PROJECT_DIR$/src/Icons/user.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6d6564616c732f3530302f41776172645f6d6564616c5f616368696576656d656e745f61636b6e6f776c656467655f61636b6e6f776c65.png" afterPath="$PROJECT_DIR$/src/Icons/medal.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/Button-Back-2-512.png" afterPath="$PROJECT_DIR$/src/Icons/Button-Back-2-512.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/Untitled-1.png" afterPath="$PROJECT_DIR$/src/Icons/Untitled-1.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/home-512.png" afterPath="$PROJECT_DIR$/src/Icons/home.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/language.png" afterPath="$PROJECT_DIR$/src/Icons/language.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/list-icon-32.png" afterPath="$PROJECT_DIR$/src/Icons/list.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/person-flat.png" afterPath="$PROJECT_DIR$/src/Icons/person-flat.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/running-shoes-3.png" afterPath="$PROJECT_DIR$/src/Icons/running-shoes-3.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/settings-512.png" afterPath="$PROJECT_DIR$/src/Icons/settings.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Icons/trophy.png" afterPath="$PROJECT_DIR$/src/Icons/trophy.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fxml/competition-info.fxml" afterPath="$PROJECT_DIR$/src/globalWalk/view/competition-info.fxml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/fxml/profile.fxml" afterPath="$PROJECT_DIR$/src/globalWalk/view/profile.fxml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/Icons/535106-user_512x512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/Icons/home-512.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/Icons/list-icon-32.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/Icons/settings-512.png" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FXML/template.fxml" afterPath="$PROJECT_DIR$/FXML/template.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/Pedometer.fxml" afterPath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/Pedometer.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/competition-info.fxml" afterPath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/competition-info.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/profile.fxml" afterPath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/profile.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/settings.fxml" afterPath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/settings.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/template.fxml" afterPath="$PROJECT_DIR$/out/production/GlobalWalk/globalWalk/view/template.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/globalWalk/view/MasterController.java" afterPath="$PROJECT_DIR$/src/globalWalk/view/MasterController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/globalWalk/view/Pedometer.fxml" afterPath="$PROJECT_DIR$/src/globalWalk/view/Pedometer.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/globalWalk/view/settings.fxml" afterPath="$PROJECT_DIR$/src/globalWalk/view/settings.fxml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/globalWalk/view/template.fxml" afterPath="$PROJECT_DIR$/src/globalWalk/view/template.fxml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/globalWalk/view/profile.fxml" afterPath="$PROJECT_DIR$/src/globalWalk/view/profile.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -79,18 +73,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="profile.fxml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="profile.fxml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/globalWalk/view/profile.fxml">
           <provider editor-type-id="JavaFX-Scene-Builder">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
-              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+            <state relative-caret-position="174">
+              <caret line="29" column="81" lean-forward="false" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
               <folding>
-                <element signature="n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <element signature="n#columnConstraints#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <element signature="n#rowConstraints#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <element signature="n#ImageView#0;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <element signature="n#image#0;n#ImageView#0;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <element signature="n#ImageView#1;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <element signature="n#ImageView#2;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <element signature="n#ImageView#3;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
                 <element signature="n#ImageView#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
-                <element signature="n#image#0;n#ImageView#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
                 <element signature="n#ImageView#1;n#children#0;n#Pane#0;n#!!top" expanded="false" />
                 <element signature="n#Label#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
                 <element signature="n#Label#1;n#children#0;n#Pane#0;n#!!top" expanded="false" />
@@ -98,26 +97,71 @@
                 <element signature="n#ImageView#2;n#children#0;n#Pane#0;n#!!top" expanded="false" />
                 <element signature="n#ImageView#3;n#children#0;n#Pane#0;n#!!top" expanded="false" />
                 <element signature="n#VBox#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+                <marker date="1491385195166" expanded="false" signature="4386:4454" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/globalWalk/Main.java">
+      <file leaf-file-name="MasterController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/globalWalk/view/MasterController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="25">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="305">
+              <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#450#451#0" expanded="true" />
+                <element signature="e#506#507#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
+                <element signature="e#628#629#0" expanded="true" />
+                <element signature="e#680#681#0" expanded="true" />
+                <element signature="e#737#738#0" expanded="true" />
+                <element signature="e#789#790#0" expanded="true" />
+                <element signature="e#850#851#0" expanded="true" />
+                <element signature="e#906#907#0" expanded="true" />
+                <element signature="e#964#965#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ovinger/src/oving2/Controller.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1295">
+              <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestMain.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/globalWalk/TestMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="25" column="63" lean-forward="false" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
+            <state relative-caret-position="400">
+              <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#926#927#0" expanded="false" />
+                <element signature="e#954#955#0" expanded="false" />
+                <marker date="1491381660145" expanded="true" signature="607:881" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Appointment.fxml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../ovinger/src/oving2/Appointment.fxml">
+          <provider editor-type-id="JavaFX-Scene-Builder">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="86" column="68" lean-forward="false" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="68" />
               <folding />
             </state>
           </provider>
@@ -131,6 +175,11 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>button</find>
+    </findStrings>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -152,7 +201,11 @@
         <option value="$PROJECT_DIR$/src/controllers/MasterController.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/globalWalk/TestMain.java" />
+        <option value="$PROJECT_DIR$/src/globalWalk/MasterController.java" />
+        <option value="$PROJECT_DIR$/src/globalWalk/view/Pedometer.fxml" />
+        <option value="/Java Fragment (profile.fxml:3912).java" />
         <option value="$PROJECT_DIR$/src/globalWalk/view/profile.fxml" />
+        <option value="$PROJECT_DIR$/src/globalWalk/view/MasterController.java" />
       </list>
     </option>
   </component>
@@ -194,6 +247,72 @@
               <option name="myItemId" value="GlobalWalk" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovinger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovinger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovinger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oving2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ovinger" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="oving1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -224,10 +343,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Icons" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -250,6 +365,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="globalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="GlobalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="globalWalk" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -598,7 +739,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32908458" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -813,14 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../ovinger/src/oving2/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="39" column="29" lean-forward="false" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -844,17 +977,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="25">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../ovinger/src/oving1/Currency.fxml">
-      <provider editor-type-id="JavaFX-Scene-Builder">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1175">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
           <folding />
         </state>
       </provider>
@@ -884,17 +1006,119 @@
         <state />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/globalWalk/TestMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="21" column="5" lean-forward="false" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#926#927#0" expanded="false" />
+            <element signature="e#954#955#0" expanded="false" />
+            <marker date="1491381660145" expanded="true" signature="607:881" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/globalWalk/view/Pedometer.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2621">
+          <caret line="115" column="14" lean-forward="true" selection-start-line="115" selection-start-column="14" selection-end-line="115" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/globalWalk/view/PedometerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovinger/src/oving1/Currency.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-975">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovinger/src/oving1/Currency-oving1.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-235">
+          <caret line="23" column="55" lean-forward="false" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovinger/src/oving2/Appointment.fxml">
+      <provider editor-type-id="JavaFX-Scene-Builder">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="86" column="68" lean-forward="false" selection-start-line="86" selection-start-column="55" selection-end-line="86" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../ovinger/src/oving2/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1295">
+          <caret line="22" column="4" lean-forward="false" selection-start-line="22" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/globalWalk/view/MasterController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="31" column="18" lean-forward="false" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#450#451#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#737#738#0" expanded="true" />
+            <element signature="e#789#790#0" expanded="true" />
+            <element signature="e#850#851#0" expanded="true" />
+            <element signature="e#906#907#0" expanded="true" />
+            <element signature="e#964#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/globalWalk/view/profile.fxml">
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        <state relative-caret-position="174">
+          <caret line="29" column="81" lean-forward="false" selection-start-line="29" selection-start-column="81" selection-end-line="29" selection-end-column="81" />
           <folding>
-            <element signature="n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <element signature="n#columnConstraints#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <element signature="n#rowConstraints#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#0;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <element signature="n#image#0;n#ImageView#0;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#1;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#2;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <element signature="n#ImageView#3;n#children#0;n#GridPane#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
             <element signature="n#ImageView#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
-            <element signature="n#image#0;n#ImageView#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
             <element signature="n#ImageView#1;n#children#0;n#Pane#0;n#!!top" expanded="false" />
             <element signature="n#Label#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
             <element signature="n#Label#1;n#children#0;n#Pane#0;n#!!top" expanded="false" />
@@ -902,15 +1126,8 @@
             <element signature="n#ImageView#2;n#children#0;n#Pane#0;n#!!top" expanded="false" />
             <element signature="n#ImageView#3;n#children#0;n#Pane#0;n#!!top" expanded="false" />
             <element signature="n#VBox#0;n#children#0;n#Pane#0;n#!!top" expanded="false" />
+            <marker date="1491385195166" expanded="false" signature="4386:4454" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/globalWalk/TestMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="25" column="63" lean-forward="false" selection-start-line="25" selection-start-column="63" selection-end-line="25" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
