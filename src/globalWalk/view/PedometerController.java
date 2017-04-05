@@ -4,6 +4,7 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
+import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 
 public class PedometerController extends MasterController {
@@ -12,31 +13,38 @@ public class PedometerController extends MasterController {
 	@FXML private Text dailySteps;
 	@FXML private Text leftSteps;
 	@FXML private Button addStepsbutton;
-	@FXML private ToggleButton manual;
 	@FXML private Text errorAddSteps;
-	
+	@FXML private TextField toggleBackground;
+	@FXML private Button offButton;
+	@FXML private Button onButton;
+
 	@FXML 
 	private void initialize() {
 		errorAddSteps.setVisible(false);
+		onButton.setVisible(false);
 		addSteps.disabledProperty();
+		toggleBackground.disabledProperty();
 		addStepsbutton.disabledProperty();
+		toggleBackground.setDisable(true);
 		addSteps.setDisable(true);
 		addStepsbutton.setDisable(true);
 	}
 		
 	
-	public void onManualButtonPress(){
-		manual.selectedProperty();
-		if (manual.isSelected()){
-			addSteps.setDisable(false);
-			addStepsbutton.setDisable(false);
-			manual.setStyle("-fx-base: lightgreen;");
-		}
-		else{
-			addSteps.setDisable(true);
-			addStepsbutton.setDisable(true);
-			manual.setStyle("-fx-base: lightgray;");
-		}
+	public void offButtonPress(){
+		addSteps.setDisable(false);
+		addStepsbutton.setDisable(false);
+		toggleBackground.setStyle("-fx-base: green; -fx-background-radius: 20;");
+		offButton.setVisible(false);
+		onButton.setVisible(true);
+	}
+	
+	public void onButtonPress(){
+		addSteps.setDisable(true);
+		addStepsbutton.setDisable(true);
+		toggleBackground.setStyle("-fx-base: lightgray; -fx-background-radius: 20;");
+		offButton.setVisible(true);
+		onButton.setVisible(false);
 	}
 	
 	void validate(String value, String regex, TextField textField){
