@@ -12,7 +12,9 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+
 <!-- .-->
+
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.RankingController">
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
@@ -93,7 +95,7 @@
             <Image url="@../../Icons/RankingTable.png" />
          </image>
       </ImageView>
-      <Button fx:id="nextButton" layoutX="225.0" layoutY="478.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#buttonClick" prefHeight="20.0" prefWidth="84.0" text="Next page" underline="true" />
+      <Button fx:id="nextButton" layoutX="217.0" layoutY="475.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#buttonClick" prefHeight="31.0" prefWidth="100.0" text="Next page" underline="true" />
       <GridPane layoutX="60.0" layoutY="91.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
