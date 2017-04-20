@@ -12,7 +12,7 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class CompetitionInfo {
+public class CompetitionInfo extends MasterController{
 	
 	@FXML private TextField toggleBackground;
 	@FXML private Button offButton;
