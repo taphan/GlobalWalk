@@ -18,7 +18,7 @@ public class CompInfoOsloNPContr {
 			onButton.setVisible(false);
 			toggleBackground.disabledProperty();
 			toggleBackground.setDisable(true);
-			joinButton.setVisible(false);
+			leaveButton.setVisible(false);
 			
 		}
 		

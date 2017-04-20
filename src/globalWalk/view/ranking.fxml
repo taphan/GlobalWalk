@@ -14,12 +14,7 @@
 <?import javafx.scene.text.Font?>
 
 <!-- .-->
-
-<<<<<<< HEAD
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.RankingController">
-=======
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.RankingController">
->>>>>>> e15703fb4e31d3682427a77004f7130b03029654
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
         <columnConstraints>
