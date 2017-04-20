@@ -53,7 +53,7 @@
                <image>
                   <Image url="@../../Icons/home.png" />
                </image>
-            </ImageView>
+            </ImageView> 
             <ImageView fitHeight="56.0" fitWidth="60.0" onMouseClicked="#clickStep" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/running-shoes-3.png" />
