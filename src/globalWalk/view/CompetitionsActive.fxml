@@ -14,9 +14,10 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionsActive">
+<Pane layoutX="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionsActive">
    <children>
+      <Rectangle fx:id="participateRect" arcHeight="5.0" arcWidth="5.0" fill="#fff695" height="105.0" layoutX="21.0" layoutY="130.0" stroke="BLACK" strokeType="INSIDE" width="279.0" />
+      <Label fx:id="participateLabel" layoutX="107.0" layoutY="134.0" text="Currently  participating in" textFill="#4ea188" />
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
         <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />

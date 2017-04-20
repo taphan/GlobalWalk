@@ -65,7 +65,7 @@
          </children>
       </GridPane>
 
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" onMouseClicked="#clickProfile" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="60.0" onMouseClicked="#clickProfile" stroke="BLACK" strokeType="INSIDE" width="320.0" />
       <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" onMouseClicked="#clickProfile" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/user.png" />

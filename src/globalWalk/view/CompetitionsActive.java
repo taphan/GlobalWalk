@@ -6,7 +6,9 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
+import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 import java.io.IOException;
@@ -15,8 +17,10 @@ public class CompetitionsActive {
 
 	//Metoder for å gå til de ulike sidene i menyen.
 		private final MasterController masterController = new MasterController();
-		
-		@FXML
+    public Label participateLabel;
+    public Rectangle participateRect;
+
+    @FXML
 		public void clickProfile(MouseEvent mouseEvent) throws IOException {
 			masterController.clickProfile(mouseEvent);
 		}
