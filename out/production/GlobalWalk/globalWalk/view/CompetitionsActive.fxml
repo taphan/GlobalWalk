@@ -13,10 +13,14 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <<<<<<< HEAD
+<<<<<<< HEAD
 <!-- .-->
 =======
 
 >>>>>>> 501fb059b234df8c3a7c6cf354493071a21ee659
+=======
+
+>>>>>>> e15703fb4e31d3682427a77004f7130b03029654
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.RankingController">
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
