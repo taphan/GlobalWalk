@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<!-- .-->
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.SettingController">
+   <children>
+      <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
+        <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" onMouseClicked="#clickHome" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
+            <ImageView fitHeight="44.0" fitWidth="44.0" onMouseClicked="#clickList" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/list.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="46.0" onMouseClicked="#clickCompetition" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/trophy.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/home.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="56.0" fitWidth="60.0" onMouseClicked="#clickStep" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/running-shoes-3.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="49.0" fitWidth="55.0" onMouseClicked="#clickSettings" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/settings.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" onMouseClicked="#clickProfile" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+      <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/user.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/medal.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="54.0" layoutY="18.0" text="42">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="185.0" layoutY="18.0" text="Bob Ross">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="76.0" text="Settings">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <GridPane layoutX="-5.0" layoutY="204.0" prefHeight="302.0" prefWidth="326.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="155.0" minWidth="10.0" prefWidth="73.0" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="270.0" minWidth="10.0" prefWidth="247.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Rectangle fill="#c9cbcc" height="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="249.0" GridPane.columnIndex="1" />
+            <Rectangle fill="#c9cbcc" height="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="249.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Rectangle fill="#c9cbcc" height="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="249.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Rectangle fill="#c9cbcc" height="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="80.0" GridPane.rowIndex="2" />
+            <Rectangle fill="#c9cbcc" height="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="80.0" GridPane.rowIndex="4" />
+            <Rectangle fill="#c9cbcc" height="64.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="80.0" />
+            <Label text="Language selection" GridPane.columnIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label text="Change profile picture" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label text="Change email" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label text="About GlobalWalk" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <Label text="Log out" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <padding>
+                  <Insets left="10.0" />
+               </padding>
+            </Label>
+            <ImageView fitHeight="56.0" fitWidth="75.0" pickOnBounds="true" preserveRatio="true" x="100.0">
+               <image>
+                  <Image url="@../../Icons/language.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="44.0" fitWidth="36.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+               <image>
+                  <Image url="@../../Icons/user.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets bottom="10.0" left="20.0" right="10.0" top="10.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="52.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+               <image>
+                  <Image url="@../../Icons/email.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="15.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="42.0" fitWidth="48.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="4">
+               <image>
+                  <Image url="@../../Icons/logout.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets left="20.0" top="10.0" />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView fitHeight="83.0" fitWidth="56.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="3">
+               <GridPane.margin>
+                  <Insets left="10.0" />
+               </GridPane.margin>
+               <image>
+                  <Image url="@../../Icons/info.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+      <Text layoutX="236.0" layoutY="155.0" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx: 20;" text="Anonymous" />
+      <TextField fx:id="toggleBackground" layoutX="234.0" layoutY="160.0" prefHeight="31.0" prefWidth="77.0" style="-fx-background-radius: 20;" />
+      <Button fx:id="offButton" layoutX="230.0" layoutY="160.0" mnemonicParsing="false" onAction="#offButtonPress" style="-fx-background-radius: 50;" text="off" />
+      <Button fx:id="onButton" layoutX="274.0" layoutY="160.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-radius: 50;" text="on" />
+   </children>
+</Pane>
