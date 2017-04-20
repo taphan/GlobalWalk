@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
@@ -12,10 +11,8 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
-
 <!-- .-->
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.Ranking2Controller">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.RankingNoCompController">
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
         <columnConstraints>
@@ -52,7 +49,7 @@
                   <Image url="@../../Icons/home.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="56.0" fitWidth="60.0" onMouseDragged="#clickStep" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+            <ImageView fitHeight="56.0" fitWidth="60.0" onMouseClicked="#clickStep" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/running-shoes-3.png" />
                </image>
@@ -90,12 +87,11 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <ImageView fitHeight="345.0" fitWidth="500.0" layoutX="-2.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="355.0" fitWidth="371.0" layoutX="-2.0" layoutY="130.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Icons/RankingTable2.png" />
+            <Image url="@../../Icons/RankingNoComp.png" />
          </image>
       </ImageView>
-      <Button fx:id="previousButton" layoutX="3.0" layoutY="475.0" mnemonicParsing="false" onAction="#buttonClick" text="Previous page" underline="true" />
       <GridPane layoutX="60.0" layoutY="91.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -105,8 +101,8 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <ToggleButton mnemonicParsing="false" prefHeight="38.0" prefWidth="117.0" style="-fx-background-color: grey;" text="Table" />
-            <ToggleButton fx:id="mapButton" mnemonicParsing="false" onAction="#goToMap" prefHeight="94.0" prefWidth="172.0" text="Map" GridPane.columnIndex="1" />
+            <ToggleButton mnemonicParsing="false" prefHeight="189.0" prefWidth="380.0" style="-fx-background-color: grey;" text="Table" />
+            <ToggleButton fx:id="mapButton" mnemonicParsing="false" onAction="#goToMap" prefHeight="252.0" prefWidth="454.0" text="Map" GridPane.columnIndex="1" />
          </children>
       </GridPane>
    </children>
