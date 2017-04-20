@@ -37,7 +37,7 @@
             <ImageView fitHeight="44.0" fitWidth="44.0" onMouseClicked="#clickList" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/list.png" />
-               </image>
+               </image> 
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
