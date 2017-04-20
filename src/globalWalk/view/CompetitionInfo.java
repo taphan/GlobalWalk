@@ -1,8 +1,16 @@
 package globalWalk.view;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.input.MouseEvent;
+import javafx.stage.Stage;
+
+import java.io.IOException;
 
 public class CompetitionInfo {
 	
@@ -12,7 +20,7 @@ public class CompetitionInfo {
 	@FXML private Button joinButton;
 	@FXML private Button leaveButton;
 	
-	//.
+
 	@FXML 
 	private void initialize() {
 		onButton.setVisible(false);
@@ -44,5 +52,22 @@ public class CompetitionInfo {
 		leaveButton.setVisible(false);
 	}
 
+    @FXML
+    public void dellBackButtonClick(MouseEvent event) throws IOException{
+        Parent rankingPage = FXMLLoader.load(getClass().getResource("CompetitionsActive.fxml"));
+        Scene rankingScene = new Scene(rankingPage);
+        Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        appStage.setScene(rankingScene);
+        appStage.show();
+    }
+
+    @FXML
+    public void ntnuBackButtonClick(MouseEvent event) throws IOException{
+        Parent rankingPage = FXMLLoader.load(getClass().getResource("CompetitionsActive2.fxml"));
+        Scene rankingScene = new Scene(rankingPage);
+        Stage appStage = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        appStage.setScene(rankingScene);
+        appStage.show();
+    }
 
 }
