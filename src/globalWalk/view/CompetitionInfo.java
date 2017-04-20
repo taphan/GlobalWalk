@@ -1,6 +1,6 @@
 package globalWalk.view;
 
-import javafx.fxml.FXML; 
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
