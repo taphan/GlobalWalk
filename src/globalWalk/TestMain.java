@@ -23,7 +23,7 @@ public class TestMain extends Application {
 
     private void showMainView() throws IOException{
         FXMLLoader loader = new FXMLLoader();
-        loader.setLocation(Main.class.getResource("view/CompetitionsActive.fxml"));
+        loader.setLocation(Main.class.getResource("view/CompetitionsFinished.fxml"));
         mainLayout = loader.load();
         Scene scene = new Scene(mainLayout);
         primaryStage.setScene(scene);
