@@ -15,7 +15,11 @@
 
 <!-- .-->
 
+<<<<<<< HEAD
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionInfo">
+=======
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompInfoOsloNPContr">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
          <columnConstraints>
@@ -91,7 +95,11 @@
          </font>
       </Label>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e9e9e9" height="43.0" layoutX="14.0" layoutY="118.0" stroke="BLACK" strokeType="INSIDE" width="292.0" />
+<<<<<<< HEAD
+      <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="27.0" layoutY="122.0" onMouseClicked="#ntnuBackButtonClick" pickOnBounds="true" preserveRatio="true">
+=======
       <ImageView fitHeight="36.0" fitWidth="36.0" layoutX="27.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <image>
             <Image url="@../../Icons/Button-Back-2-512.png" />
          </image>
@@ -167,7 +175,11 @@
       </Button>
       <ImageView fitHeight="88.0" fitWidth="124.0" layoutX="39.0" layoutY="405.0" pickOnBounds="true" preserveRatio="true">
          <image>
+<<<<<<< HEAD
+            <Image url="@../../Icons/ntnu.JPG" />
+=======
             <Image url="@../../Icons/vipps.png" />
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          </image>
       </ImageView>
    </children>

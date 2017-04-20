@@ -14,7 +14,11 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionsActive">
+=======
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.RankingController">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
          <columnConstraints>
@@ -28,7 +32,11 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
+<<<<<<< HEAD
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+=======
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
@@ -89,7 +97,11 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
+<<<<<<< HEAD
+      <Button layoutX="10.0" layoutY="470.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#prevButtonClick" prefHeight="31.0" prefWidth="100.0" text="Previous page" underline="true" />
+=======
       <Button fx:id="nextButton" layoutX="15.0" layoutY="475.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#buttonClick" prefHeight="31.0" prefWidth="100.0" text="Previous page" underline="true" />
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
       <GridPane layoutX="60.0" layoutY="95.0">
          <columnConstraints>
             <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -100,10 +112,17 @@
          </rowConstraints>
          <children>
             <ToggleButton mnemonicParsing="false" prefHeight="189.0" prefWidth="380.0" style="-fx-background-color: gray;" text="Active" />
+<<<<<<< HEAD
+            <ToggleButton mnemonicParsing="false" onAction="#toFinishClick" prefHeight="252.0" prefWidth="454.0" text="Finished" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="35.0" layoutY="140.0" onMouseClicked="#ntnuCompetitionClick" pickOnBounds="true" preserveRatio="true">
+=======
             <ToggleButton fx:id="mapButton" mnemonicParsing="false" onAction="#goToMap" prefHeight="252.0" prefWidth="454.0" text="Finished" GridPane.columnIndex="1" />
          </children>
       </GridPane>
       <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="35.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <image>
             <Image url="@../../Icons/ntnu_logo.png" />
          </image>
