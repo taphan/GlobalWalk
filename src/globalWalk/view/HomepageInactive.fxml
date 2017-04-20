@@ -54,7 +54,7 @@
                </image>
             </ImageView>
 
-            <ImageView fitHeight="49.0" fitWidth="55.0" onMouseDragged="#clickSettings" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+            <ImageView fitHeight="49.0" fitWidth="55.0" onMouseClicked="#clickSettings" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/settings.png" />
                </image>
