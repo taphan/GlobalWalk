@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<!-- .-->
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.MasterController">
+   <children>
+      <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
+         <columnConstraints>
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+         </rowConstraints>
+         <children>
+            <Rectangle onMouseClicked="#clickList" arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+            <Rectangle onMouseClicked="#clickCompetition" arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
+            <Rectangle onMouseClicked="#clickHome" arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
+            <Rectangle onMouseClicked="#clickStep" arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
+            <Rectangle onMouseClicked="#clickSettings" arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
+
+             <ImageView onMouseClicked="#clickList" fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/list.png" />
+               </image>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </ImageView>
+            <ImageView onMouseClicked="#clickCompetition" fitHeight="43.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/trophy.png" />
+               </image>
+            </ImageView>
+            <ImageView onMouseClicked="#clickHome" fitHeight="43.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/home.png" />
+               </image>
+            </ImageView>
+            <ImageView onMouseClicked="#clickStep" fitHeight="56.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/running-shoes-3.png" />
+               </image>
+            </ImageView>
+            <ImageView onMouseClicked="#clickSettings" fitHeight="49.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+               <image>
+                  <Image url="@../../Icons/settings.png" />
+               </image>
+            </ImageView>
+         </children>
+      </GridPane>
+
+      <Rectangle onMouseClicked="#clickProfile" arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+      <ImageView onMouseClicked="#clickProfile" fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/user.png" />
+         </image>
+      </ImageView>
+      <ImageView onMouseClicked="#clickProfile" fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/medal.png" />
+         </image>
+      </ImageView>
+      <Label onMouseClicked="#clickProfile" layoutX="54.0" layoutY="18.0" text="42">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+      <Label onMouseClicked="#clickProfile" layoutX="185.0" layoutY="18.0" text="Bob Ross">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+
+       <Label layoutX="23.0" layoutY="76.0" text="Profile">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="98.0" fitWidth="108.0" layoutX="201.0" layoutY="106.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/person-flat.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="30.0" fitWidth="31.0" layoutX="53.0" layoutY="247.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6d6564616c732f3530302f41776172645f6d6564616c5f616368696576656d656e745f61636b6e6f776c656467655f61636b6e6f776c65.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="22.0" layoutY="122.0" prefHeight="374.0" prefWidth="277.0">
+         <children>
+            <Label text="Name:">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label text="    Bob Ross">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label text="Email:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="    bob.ross@gmail.com">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label text="Total medals:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="    42">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label text="Total steps walked:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="    420500">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label text="Total finished competitions:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="    1">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+            <Label text="Connected pedometer device:">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <Label text="    Fitbit - Charge 2 Activity Tracker">
+               <font>
+                  <Font size="14.0" />
+               </font></Label>
+         </children>
+      </VBox>
+   </children>
+</Pane>

@@ -10,8 +10,7 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
-
-
+<!-- .-->
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
@@ -33,7 +32,7 @@
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
             <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
                <image>
-                  <Image url="@../src/Icons/list.png" />
+                  <Image url="@../../Icons/list.png" />
                </image>
                <GridPane.margin>
                   <Insets />
@@ -41,22 +40,22 @@
             </ImageView>
             <ImageView fitHeight="43.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                <image>
-                  <Image url="@../src/Icons/trophy.png" />
+                  <Image url="@../../Icons/trophy.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="43.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                <image>
-                  <Image url="@../src/Icons/home.png" />
+                  <Image url="@../../Icons/home.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="56.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
                <image>
-                  <Image url="@../src/Icons/running-shoes-3.png" />
+                  <Image url="@../../Icons/running-shoes-3.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="49.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
                <image>
-                  <Image url="@../src/Icons/settings.png" />
+                  <Image url="@../../Icons/settings.png" />
                </image>
             </ImageView>
          </children>
@@ -64,12 +63,12 @@
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
       <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../src/Icons/user.png" />
+            <Image url="@../../Icons/user.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../src/Icons/68747470733a2f2f63646e322e69636f6e66696e6465722e636f6d2f646174612f69636f6e732f6d6564616c732f3530302f41776172645f6d6564616c5f616368696576656d656e745f61636b6e6f776c656467655f61636b6e6f776c65.png" />
+            <Image url="@../../Icons/medal.png" />
          </image>
       </ImageView>
       <Label layoutX="54.0" layoutY="18.0" text="42">
@@ -82,7 +81,7 @@
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="23.0" layoutY="76.0" text="Heading">
+      <Label layoutX="23.0" layoutY="76.0" text="Homepage">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
