@@ -26,7 +26,7 @@ public class MasterController {
     }
 
     public void clickList(MouseEvent mouseEvent) throws IOException {
-    	Parent homePage = FXMLLoader.load(getClass().getResource("CompetitionsActive"));
+    	Parent homePage = FXMLLoader.load(getClass().getResource("CompetitionsActive.fxml"));
 		Scene homeScene = new Scene(homePage);
 		Stage appStage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
 		appStage.setScene(homeScene);
