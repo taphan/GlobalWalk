@@ -9,14 +9,11 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionsFinished">
-=======
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.RankingMapController">
->>>>>>> e15703fb4e31d3682427a77004f7130b03029654
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
         <columnConstraints>
@@ -31,7 +28,7 @@
         </rowConstraints>
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
@@ -52,7 +49,7 @@
                <image>
                   <Image url="@../../Icons/home.png" />
                </image>
-            </ImageView>
+            </ImageView> 
             <ImageView fitHeight="56.0" fitWidth="60.0" onMouseClicked="#clickStep" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/running-shoes-3.png" />
@@ -91,7 +88,7 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <GridPane layoutX="60.0" layoutY="91.0">
+      <GridPane layoutX="60.0" layoutY="95.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -100,9 +97,71 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <ToggleButton fx:id="tableButton" mnemonicParsing="false" onAction="#buttonClick" prefHeight="192.0" prefWidth="280.0" text="Active" />
-            <ToggleButton fx:id="mapButton" mnemonicParsing="false" prefHeight="252.0" prefWidth="454.0" style="-fx-background-color: grey;" text="Finished" GridPane.columnIndex="1" />
+            <ToggleButton fx:id="activeCompetitionsButton" mnemonicParsing="false" onAction="#clickCompetition" prefHeight="192.0" prefWidth="100.0" text="Active" />
+            <ToggleButton mnemonicParsing="false" prefHeight="252.0" prefWidth="454.0" style="-fx-background-color: grey;" text="Finished" GridPane.columnIndex="1" />
          </children>
       </GridPane>
+      <ImageView fitHeight="100.0" fitWidth="95.0" layoutX="30.0" layoutY="140.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/vipps.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="30.0" layoutY="381.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/fb_icon_325x325.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="30.0" layoutY="256.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/apple_logo.png" />
+         </image>
+      </ImageView>
+      <Line endX="120.0" layoutX="160.0" layoutY="245.0" startX="-120.0" strokeMiterLimit="100.0" />
+      <Line endX="120.0" layoutX="160.0" layoutY="368.0" startX="-120.0" strokeMiterLimit="100.0" />
+      <Label layoutX="150.0" layoutY="156.0" text="Singapore - Tokyo">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="400.0" text="Taipei - NYC">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="278.0" text="Chicago - Iceland">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="177.0" text="Difficulty: 5/10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="420.0" text="Difficulty: 9/10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="298.0" text="Difficulty: 6/10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="197.0" text="Finished: 10/3/2017">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="318.0" text="Finished: 03/01/2017">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="440.0" text="Finished: 20/11/2016">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
