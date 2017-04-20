@@ -14,7 +14,11 @@
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
+<<<<<<< HEAD
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionsActive">
+=======
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionsActive">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
         <columnConstraints>
@@ -28,12 +32,16 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
+<<<<<<< HEAD
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+=======
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" onMouseClicked="#clickList" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
-            <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+            <ImageView fitHeight="44.0" fitWidth="44.0" onMouseClicked="#clickList" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/list.png" />
                </image>
@@ -41,29 +49,29 @@
                   <Insets />
                </GridPane.margin>
             </ImageView>
-            <ImageView fitHeight="43.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+            <ImageView fitHeight="43.0" fitWidth="46.0" onMouseClicked="#clickCompetition" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/trophy.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="43.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+            <ImageView fitHeight="43.0" fitWidth="51.0" onMouseClicked="#clickHome" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/home.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="56.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+            <ImageView fitHeight="56.0" fitWidth="60.0" onMouseClicked="#clickStep" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/running-shoes-3.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="49.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+            <ImageView fitHeight="49.0" fitWidth="55.0" onMouseClicked="#clickSettings" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/settings.png" />
                </image>
             </ImageView>
          </children>
       </GridPane>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" onMouseClicked="#clickProfile" stroke="BLACK" strokeType="INSIDE" width="320.0" />
       <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/user.png" />
@@ -89,7 +97,11 @@
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
+<<<<<<< HEAD
       <Button layoutX="210.0" layoutY="470.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#nextButtonClick" prefHeight="31.0" prefWidth="100.0" text="Next page" underline="true" />
+=======
+      <Button fx:id="nextButton" layoutX="207.0" layoutY="475.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#buttonClick" prefHeight="31.0" prefWidth="100.0" text="Next page" underline="true" />
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
       <GridPane layoutX="60.0" layoutY="95.0">
         <columnConstraints>
           <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
@@ -103,49 +115,88 @@
             <ToggleButton mnemonicParsing="false" onAction="#toFinishClick" prefHeight="252.0" prefWidth="454.0" text="Finished" GridPane.columnIndex="1" />
          </children>
       </GridPane>
+<<<<<<< HEAD
       <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="30.0" layoutY="140.0" onMouseClicked="#dellCompetitionClick" pickOnBounds="true" preserveRatio="true">
+=======
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="30.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <image>
             <Image url="@../../Icons/Dell-Company-Logo.png" />
          </image>
       </ImageView>
+<<<<<<< HEAD
       <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="30.0" layoutY="255.0" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/shell_logo.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="80.0" fitWidth="139.0" layoutX="13.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
+=======
+      <ImageView fitHeight="100.0" fitWidth="100.0" layoutX="30.0" layoutY="275.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/shell%20logo.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="80.0" fitWidth="139.0" layoutX="13.0" layoutY="395.0" pickOnBounds="true" preserveRatio="true">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <image>
             <Image url="@../../Icons/Cisco-Logo.png" />
          </image>
       </ImageView>
+<<<<<<< HEAD
       <Line endX="120.0" layoutX="160.0" layoutY="243.0" startX="-120.0" />
       <Line endX="120.0" layoutX="160.0" layoutY="357.0" startX="-120.0" />
       <Label layoutX="150.0" layoutY="160.0" text="Trondheim - London">
+=======
+      <Line endX="120.0" layoutX="160.0" layoutY="263.0" startX="-120.0" />
+      <Line endX="120.0" layoutX="160.0" layoutY="387.0" startX="-120.0" />
+      <Label layoutX="150.0" layoutY="170.0" text="Trondheim - London">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
+<<<<<<< HEAD
       <Label layoutX="150.0" layoutY="185.0" text="Difficulty:  3/10">
+=======
+      <Label layoutX="150.0" layoutY="195.0" text="Difficulty:  3/10">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <font>
             <Font size="14.0" />
          </font>
       </Label>
+<<<<<<< HEAD
       <Label layoutX="150.0" layoutY="278.0" text="Warsaw - Milan">
+=======
+      <Label layoutX="150.0" layoutY="300.0" text="Warsaw - Milan">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
+<<<<<<< HEAD
       <Label layoutX="150.0" layoutY="303.0" text="Difficulty:  4/10">
+=======
+      <Label layoutX="150.0" layoutY="325.0" text="Difficulty:  4/10">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <font>
             <Font size="14.0" />
          </font>
       </Label>
+<<<<<<< HEAD
       <Label layoutX="150.0" layoutY="395.0" text="Warsaw - Milan">
+=======
+      <Label layoutX="150.0" layoutY="410.0" text="Warsaw - Milan">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <font>
             <Font name="System Bold" size="14.0" />
          </font>
       </Label>
+<<<<<<< HEAD
       <Label layoutX="150.0" layoutY="420.0" text="Difficulty:  5/10">
+=======
+      <Label layoutX="150.0" layoutY="435.0" text="Difficulty:  5/10">
+>>>>>>> 646ed67f63b50b61c009e0e988d851046fd3c1fe
          <font>
             <Font size="14.0" />
          </font>
