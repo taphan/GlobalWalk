@@ -1,16 +1,11 @@
 package globalWalk.view;
 
-import java.io.IOException;
-
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
+import java.io.IOException; 
 import javafx.fxml.FXMLLoader;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
-import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
-import javafx.scene.shape.Rectangle;
 import javafx.stage.Stage;
 
 public class MasterController {
