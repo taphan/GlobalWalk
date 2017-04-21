@@ -53,17 +53,20 @@ public class PedometerController extends MasterController {
 		textField.setStyle("-fx-background-color: " + color);  // Turns red when incorrect. 
 	}
 	
-	public void isAddStepsValid(String value){
-			if (value.length() > 0){
-				String regex = "-?[\\d]+"; // Only digits ect. -70 and 70
-				validate(value, regex, addSteps);
-				if (!value.matches(regex)){
-					errorAddSteps.setVisible(true);	
+	public boolean isAddStepsValid(String value) {
+		if (value.length() > 0){
+			String regex = "-?[\\d]+"; // Only digits ect. -70 and 70
+			validate(value, regex, addSteps);
+			if (!value.matches(regex)){
+				errorAddSteps.setVisible(true);
+				return false;
 			}
-				if (Integer.valueOf(value) >= 0){ 
-					errorAddSteps.setVisible(false);	
-				}
+			if (Integer.valueOf(value) >= 0){
+				errorAddSteps.setVisible(false);	
+				return true;
 			}
+		}
+		return true;
 	}
 	
 	public void addDailySteps(String value){
@@ -82,10 +85,10 @@ public class PedometerController extends MasterController {
 	}
 	
 	public void onAddStepsButtonPress(){
-		isAddStepsValid(addSteps.getText());
-		addDailySteps(addSteps.getText());
-		addLeftSteps(dailySteps.getText());
-		
+		if (isAddStepsValid(addSteps.getText())) {
+			addDailySteps(addSteps.getText());
+			addLeftSteps(dailySteps.getText());
+		}		
 	}
 	
 	//Metoder for å gå til de ulike sidene i menyen.
