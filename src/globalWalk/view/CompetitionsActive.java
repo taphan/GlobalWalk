@@ -16,7 +16,7 @@ import java.io.IOException;
 public class CompetitionsActive {
 
 	//Metoder for å gå til de ulike sidene i menyen.
-		private final MasterController masterController = new MasterController();
+    private final MasterController masterController = new MasterController();
     public Label participateLabel;
     public Rectangle participateRect;
 

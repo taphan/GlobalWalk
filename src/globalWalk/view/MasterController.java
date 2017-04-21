@@ -34,9 +34,7 @@ public class MasterController {
 		Stage appStage = (Stage) ((Node) mouseEvent.getSource()).getScene().getWindow();
 		appStage.setScene(homeScene);
 		appStage.show();
-        
- 
-    		
+
     }
 
     public void clickHome(MouseEvent mouseEvent) throws IOException {
