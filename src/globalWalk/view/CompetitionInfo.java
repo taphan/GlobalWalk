@@ -27,7 +27,6 @@ public class CompetitionInfo extends MasterController{
 		toggleBackground.disabledProperty();
 		toggleBackground.setDisable(true);
 		joinButton.setVisible(false);
-		
 	}
 	
 	public void offButtonPress(){
