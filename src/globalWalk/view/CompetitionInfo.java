@@ -27,7 +27,6 @@ public class CompetitionInfo {
 		toggleBackground.disabledProperty();
 		toggleBackground.setDisable(true);
 		joinButton.setVisible(false);
-		
 	}
 	
 	public void offButtonPress(){
@@ -51,7 +50,7 @@ public class CompetitionInfo {
 		joinButton.setVisible(true);
 		leaveButton.setVisible(false);
 	}
-
+	
     @FXML
     public void dellBackButtonClick(MouseEvent event) throws IOException{
         Parent rankingPage = FXMLLoader.load(getClass().getResource("CompetitionsActive.fxml"));

@@ -3,20 +3,18 @@
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
-<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.ColumnConstraints?>
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.shape.Line?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
-<?import javafx.scene.text.Text?>
 
-<!-- .-->
-
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.PedometerController">
+<Pane layoutX="-1.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionsActive">
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
         <columnConstraints>
@@ -30,15 +28,16 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" onMouseClicked="#clickList" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
             <ImageView fitHeight="44.0" fitWidth="44.0" onMouseClicked="#clickList" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/list.png" />
-               </image>
+               </image> 
                <GridPane.margin>
                   <Insets />
                </GridPane.margin>
@@ -66,67 +65,91 @@
          </children>
       </GridPane>
       <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" onMouseClicked="#clickProfile" stroke="BLACK" strokeType="INSIDE" width="320.0" />
-      <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" onMouseClicked="#clickProfile" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/user.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" onMouseClicked="#clickProfile" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/medal.png" />
          </image>
       </ImageView>
-      <Label layoutX="54.0" layoutY="18.0" text="42">
+      <Label layoutX="54.0" layoutY="18.0" onMouseClicked="#clickProfile" text="42">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="185.0" layoutY="18.0" text="Bob Ross">
+      <Label layoutX="185.0" layoutY="18.0" onMouseClicked="#clickProfile" text="Bob Ross">
          <font>
-
+            <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="23.0" layoutY="76.0" text="Pedometer">
+      <Label layoutX="23.0" layoutY="65.0" prefHeight="26.0" prefWidth="157.0" text="Competitions">
          <font>
             <Font name="System Bold" size="20.0" />
          </font>
       </Label>
-      <Button fx:id="addStepsbutton" layoutX="225.0" layoutY="433.0" mnemonicParsing="false" onAction="#onAddStepsButtonPress" prefHeight="49.0" prefWidth="88.0" text="Add Steps" />
-      <ImageView fitHeight="305.0" fitWidth="391.0" layoutX="-28.0" layoutY="73.0" pickOnBounds="true" preserveRatio="true">
+      <Button layoutX="210.0" layoutY="470.0" maxHeight="-Infinity" mnemonicParsing="false" onAction="#nextButtonClick" prefHeight="31.0" prefWidth="100.0" text="Next page" underline="true" />
+      <GridPane layoutX="60.0" layoutY="95.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <ToggleButton mnemonicParsing="false" prefHeight="189.0" prefWidth="380.0" style="-fx-background-color: gray;" text="Active" />
+            <ToggleButton mnemonicParsing="false" onAction="#toFinishClick" prefHeight="252.0" prefWidth="454.0" text="Finished" GridPane.columnIndex="1" />
+         </children>
+      </GridPane>
+      <ImageView fitHeight="90.0" fitWidth="90.0" layoutX="30.0" layoutY="140.0" onMouseClicked="#dellCompetitionClick" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Icons/Untitled-1.png" />
+            <Image url="@../../Icons/Dell-Company-Logo.png" />
          </image>
       </ImageView>
-      <Text fx:id="leftSteps" layoutX="134.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="2500" wrappingWidth="65.00000252982318">
-         <font>
-            <Font size="18.0" />
-         </font>
-      </Text>
-      <TextField fx:id="addSteps" layoutX="14.0" layoutY="433.0" prefHeight="49.0" prefWidth="211.0" />
-      <Text fx:id="dailySteps" layoutX="98.0" layoutY="214.0" strokeType="OUTSIDE" strokeWidth="0.0" text="7500" wrappingWidth="124.41796857097279">
-         <font>
-            <Font name="System Bold" size="40.0" />
-         </font>
-      </Text>
-      <ImageView fitHeight="61.0" fitWidth="65.0" layoutX="227.0" layoutY="334.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="80.0" fitWidth="139.0" layoutX="13.0" layoutY="380.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Icons/medal.png" />
+            <Image url="@../../Icons/Cisco-Logo.png" />
          </image>
       </ImageView>
-      <Text fx:id="errorAddSteps" fill="RED" layoutX="14.0" layoutY="428.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Can only contain digits" wrappingWidth="211.0000015674707" />
-      <Text fill="#615e5e" layoutX="108.0" layoutY="243.0" strokeType="OUTSIDE" strokeWidth="0.0" text="/10 000 steps today" wrappingWidth="103.41796857097279">
+      <ImageView fitHeight="83.0" fitWidth="93.0" layoutX="34.0" layoutY="257.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../Icons/shell.png" />
+         </image>
+      </ImageView>
+      <Line endX="120.0" layoutX="160.0" layoutY="243.0" startX="-120.0" />
+      <Line endX="120.0" layoutX="160.0" layoutY="357.0" startX="-120.0" />
+      <Label layoutX="150.0" layoutY="160.0" text="Trondheim - London">
          <font>
-            <Font size="16.0" />
+            <Font name="System Bold" size="14.0" />
          </font>
-      </Text>
-      <Text layoutX="27.0" layoutY="360.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Walk another                steps to get a medal!" wrappingWidth="184.6708984375">
+      </Label>
+      <Label layoutX="150.0" layoutY="185.0" text="Difficulty:  3/10">
          <font>
-            <Font size="17.0" />
+            <Font size="14.0" />
          </font>
-      </Text>
-      <Text layoutX="250.0" layoutY="82.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Manual" />
-      <TextField fx:id="toggleBackground" layoutX="230.0" layoutY="91.0" prefHeight="31.0" prefWidth="78.0" style="-fx-background-radius: 20;" />
-      <Button fx:id="offButton" layoutX="231.0" layoutY="91.0" mnemonicParsing="false" onAction="#offButtonPress" style="-fx-background-radius: 50;" text="off" />
-      <Button fx:id="onButton" layoutX="274.0" layoutY="91.0" mnemonicParsing="false" onAction="#onButtonPress" style="-fx-background-radius: 50;" text="on" />
+      </Label>
+      <Label layoutX="150.0" layoutY="278.0" text="Warsaw - Milan">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="303.0" text="Difficulty:  4/10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="395.0" text="Paris - Moscow">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="420.0" text="Difficulty:  5/10">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
    </children>
 </Pane>

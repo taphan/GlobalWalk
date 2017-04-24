@@ -12,10 +12,11 @@
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <!-- .-->
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.112" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionInfo">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="568.0" prefWidth="320.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="globalWalk.view.CompetitionInfo">
    <children>
       <GridPane layoutY="508.0" prefHeight="60.0" prefWidth="320.0">
          <columnConstraints>
@@ -29,12 +30,12 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
-            <ImageView fitHeight="44.0" fitWidth="44.0" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="61.0" onMouseClicked="#clickList" stroke="BLACK" strokeType="INSIDE" width="65.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" onMouseClicked="#clickCompetition" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" onMouseClicked="#clickHome" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" onMouseClicked="#clickStep" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" onMouseClicked="#clickSettings" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
+            <ImageView fitHeight="44.0" fitWidth="44.0" onMouseClicked="#clickList" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/list.png" />
                </image>
@@ -42,45 +43,45 @@
                   <Insets />
                </GridPane.margin>
             </ImageView>
-            <ImageView fitHeight="43.0" fitWidth="46.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
+            <ImageView fitHeight="43.0" fitWidth="46.0" onMouseClicked="#clickCompetition" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/trophy.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="43.0" fitWidth="51.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
+            <ImageView fitHeight="43.0" fitWidth="51.0" onMouseClicked="#clickHome" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/home.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="56.0" fitWidth="60.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
+            <ImageView fitHeight="56.0" fitWidth="60.0" onMouseClicked="#clickStep" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="3" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/running-shoes-3.png" />
                </image>
             </ImageView>
-            <ImageView fitHeight="49.0" fitWidth="55.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
+            <ImageView fitHeight="49.0" fitWidth="55.0" onMouseClicked="#clickSettings" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="4" GridPane.halignment="CENTER">
                <image>
                   <Image url="@../../Icons/settings.png" />
                </image>
             </ImageView>
          </children>
       </GridPane>
-      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" stroke="BLACK" strokeType="INSIDE" width="320.0" />
-      <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="60.0" onMouseClicked="#clickProfile" stroke="BLACK" strokeType="INSIDE" width="320.0" />
+      <ImageView fitHeight="44.0" fitWidth="36.0" layoutX="257.0" layoutY="12.0" onMouseClicked="#clickProfile" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/user.png" />
          </image>
       </ImageView>
-      <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fitHeight="49.0" fitWidth="49.0" layoutX="14.0" layoutY="6.0" onMouseClicked="#clickProfile" pickOnBounds="true" preserveRatio="true">
          <image>
             <Image url="@../../Icons/medal.png" />
          </image>
       </ImageView>
-      <Label layoutX="54.0" layoutY="18.0" text="42">
+      <Label layoutX="54.0" layoutY="18.0" onMouseClicked="#clickProfile" text="42">
          <font>
             <Font size="16.0" />
          </font>
       </Label>
-      <Label layoutX="185.0" layoutY="18.0" text="Bob Ross">
+      <Label layoutX="185.0" layoutY="18.0" onMouseClicked="#clickProfile" text="Bob Ross">
          <font>
             <Font size="16.0" />
          </font>
@@ -152,7 +153,7 @@
             <Font size="14.0" />
          </font>
       </Label>
-      <Button fx:id="leaveButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onLeavePress" text="Leave">
+      <Button fx:id="leaveButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onLeavePress" text="Join">
          <font>
             <Font size="14.0" />
          </font>
@@ -160,7 +161,7 @@
       <TextField fx:id="toggleBackground" layoutX="203.0" layoutY="395.0" prefHeight="36.0" prefWidth="85.0" style="-fx-background-radius: 20;" />
       <Button fx:id="onButton" layoutX="251.0" layoutY="395.0" mnemonicParsing="false" onAction="#onButtonPress" prefHeight="36.0" prefWidth="44.0" style="-fx-background-radius: 50;" text="on" />
       <Button fx:id="offButton" layoutX="196.0" layoutY="395.0" mnemonicParsing="false" onAction="#offButtonPress" prefHeight="36.0" prefWidth="44.0" style="-fx-background-radius: 50;" text="off" />
-      <Button fx:id="joinButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onJoinPress" prefHeight="30.0" prefWidth="58.0" text="Join">
+      <Button fx:id="joinButton" layoutX="218.0" layoutY="449.0" mnemonicParsing="false" onAction="#onJoinPress" prefHeight="30.0" prefWidth="58.0" text="Leave">
          <font>
             <Font size="14.0" />
          </font>
@@ -170,5 +171,6 @@
             <Image url="@../../Icons/ntnu.JPG" />
          </image>
       </ImageView>
+      <Text layoutX="207.0" layoutY="391.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Anonymous" />
    </children>
 </Pane>
