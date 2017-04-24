@@ -27,7 +27,7 @@
          <children>
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="1" />
-            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#959aa1" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="2" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="3" />
             <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#e2e6eb" height="61.0" stroke="BLACK" strokeType="INSIDE" width="65.0" GridPane.columnIndex="4" />
             <ImageView fitHeight="44.0" fitWidth="44.0" onMouseClicked="#clickList" pickOnBounds="true" preserveRatio="true" GridPane.halignment="CENTER">
@@ -85,7 +85,7 @@
 
       <ImageView fitHeight="299.0" fitWidth="294.0" layoutX="20.0" layoutY="206.0" pickOnBounds="true" preserveRatio="true">
          <image>
-            <Image url="@../../Icons/RankingTableHome.png" />
+            <Image url="@../../Icons/RankingTableHome2.PNG" />
          </image>
       </ImageView>
 
